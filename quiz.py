@@ -5,9 +5,20 @@ print("------------------------------")
 print("----- VERIFICAR TRIANGULO ----")
 print("------------------------------")
 
+
 # input
+a = float(input("Ingrese el valor de a: "))     
+b = float(input("Ingrese el valor de b: "))
+c = float(input("Ingrese el valor de c: "))
 
 # processing
-
-
-# output
+if a + b > c:
+    print(" si se puede formar un triangulo")
+elif a + b < c :
+    print("no se puede formar un triangulo")
+elif a + c > b:
+     print(" si se puede formar un triangulo")
+elif a + c < b:
+    print("no se puede formar un triangulo")
+else:
+    print("no se puede formar un triangulo")
